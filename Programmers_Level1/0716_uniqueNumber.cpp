@@ -1,4 +1,4 @@
-// Level 1. 같은 숫자는 싫어
+// Level 1. 같은 숫자는 싫어!
 // https://programmers.co.kr/learn/courses/30/lessons/12906?language=cpp
 
 #include <vector>
