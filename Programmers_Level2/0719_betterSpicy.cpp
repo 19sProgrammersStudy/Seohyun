@@ -17,7 +17,7 @@ int solution(vector<int> scoville, int K)
     mix.push(scoville[idx]);
 
   // 2. 가장 앞의 값이 K보다 작은 동안 반복
-  // 2-1. 남은 스코빌 지수가 하나면 -1
+  // 2-1. 남은 스코빌 지수가 하나이고 K보다 작으면 -1
   while (mix.top() < K)
   {
     if (mix.size() == 1)
